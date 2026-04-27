@@ -1,6 +1,10 @@
 # 🪙 Aurum: Autonomous Gold Trader
 
 <p align="center">
+  <img src="assets/logo.png" width="350" alt="Aurum Logo">
+</p>
+
+<p align="center">
   <i>An LLM-driven XAUUSD trading agent for MetaTrader 5.</i>
 </p>
 
