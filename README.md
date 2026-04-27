@@ -192,7 +192,7 @@ Output reports how often `PRIMARY` and `SECONDARY` setups would have triggered t
 
 ## 📝 License
 
-This project is licensed under the GPL-3.0 License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 No warranty. No liability. Trading is your responsibility.
 
