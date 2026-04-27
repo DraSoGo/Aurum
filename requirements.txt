@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-dotenv>=1.0
+pydantic>=2.5
+requests>=2.31
+MetaTrader5>=5.0.45
+anthropic>=0.34

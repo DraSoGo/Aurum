@@ -1,0 +1,78 @@
+# ===================================================================
+# Aurum — .gitignore
+#
+# Goal: keep API keys, broker credentials, and runtime artefacts out
+# of the repo. Ship only the .env.example template.
+# ===================================================================
+
+# ---- Environment / secrets ----------------------------------------
+# All real env files are local-only. Use .env.example as the template.
+.env
+.env.*
+!.env.example
+
+# Stray dotenv backups / local overrides
+*.env.local
+*.env.bak
+
+# ---- Python -------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtualenvs (any conventional name)
+venv/
+.venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Test / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---- Runtime artefacts -------------------------------------------
+# SQLite DBs hold trade history with broker-identifiable rows.
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Server / agent logs
+logs/
+*.log
+
+# MT5 runtime dumps
+*.tmp
+*.dmp
+
+# ---- IDE / OS noise ----------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Node / frontend (future use) --------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
