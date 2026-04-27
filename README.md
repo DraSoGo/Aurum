@@ -12,7 +12,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com/)
 [![MetaTrader 5](https://img.shields.io/badge/MetaTrader-5-0088CC.svg)](https://www.metatrader5.com/)
 [![Claude](https://img.shields.io/badge/Anthropic-Claude-D97757.svg)](https://www.anthropic.com/)
-[![License: GPL](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://opensource.org/licenses/GPL-3.0)
+[![License](https://img.shields.io/github/license/DraSoGo/Aurum)](LICENSE)
 
 **Aurum** — Latin for *gold* — is a single-symbol XAUUSD trading bot that pairs an Anthropic Claude decision core with a MetaTrader 5 execution layer. It runs every 30 minutes, scores the current market against a breakout-follow-trend thesis, and only fires when seven independent gates agree. Claude reasons; the gates discipline.
 
