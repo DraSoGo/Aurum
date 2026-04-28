@@ -46,7 +46,7 @@
 ### 2. Clone and install
 
 ```bat
-git clone https://github.com/YOUR_USER/Aurum.git
+git clone https://github.com/DraSoGo/Aurum
 cd Aurum
 
 python -m venv venv
