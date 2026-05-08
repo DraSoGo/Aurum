@@ -195,12 +195,13 @@ Output reports how often `PRIMARY` and `SECONDARY` setups would have triggered t
 
 ---
 
-## Support
+## ☕ Support
 
 If WiringWorkbench is useful to you, you can support the project here:
 
 [Support Me](https://buymeacoffee.com/drasogo)
 
+---
 
 ## 📝 License
 
