@@ -192,7 +192,15 @@ Output reports how often `PRIMARY` and `SECONDARY` setups would have triggered t
 - ✅ Any MT5-supported broker (tested: IC Markets Raw Spread Demo, OANDA Global Live)
 - ✅ Anthropic Claude Sonnet 4.x (`claude-sonnet-4-*`)
 
+
 ---
+
+## Support
+
+If WiringWorkbench is useful to you, you can support the project here:
+
+[Support Me](https://buymeacoffee.com/drasogo)
+
 
 ## 📝 License
 
